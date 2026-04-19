@@ -155,7 +155,7 @@ try:
     import streamlit as st
 except ImportError:
     print("Streamlit not found. Installing now...")
-    !pip install streamlit
+    pip install streamlit
     import streamlit as st # Try importing again after installation
 
 from transformers import pipeline
